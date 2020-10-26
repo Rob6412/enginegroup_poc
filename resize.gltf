@@ -1,0 +1,288 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 611127eacd250f22943d21b3c2c9dbaa3a0ef9a2",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 48816,
+            "type": "VEC3",
+            "max": [
+                0.9992930293083191,
+                12.166160583496094,
+                2.442063093185425
+            ],
+            "min": [
+                -1.0710630416870118,
+                12.004108428955079,
+                -1.871603012084961
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 48816,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 48816,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 48816,
+            "type": "SCALAR",
+            "max": [
+                48815.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 177792,
+            "type": "VEC3",
+            "max": [
+                3.341888904571533,
+                12.396148681640625,
+                3.3418779373168947
+            ],
+            "min": [
+                -3.3418867588043215,
+                0.0037249999586492779,
+                -3.3418877124786379
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 177792,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 177792,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 5689344,
+            "type": "SCALAR",
+            "max": [
+                177791.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 585792,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 585792,
+            "byteLength": 585792,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1171584,
+            "byteLength": 390528,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1562112,
+            "byteLength": 195264,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1757376,
+            "byteLength": 2133504,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3890880,
+            "byteLength": 2133504,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6024384,
+            "byteLength": 1422336,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 7446720,
+            "byteLength": 22757376,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 30204096,
+            "uri": "resize_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.0000700709642842412,
+                "yfov": 0.6024156808853149,
+                "zfar": 3.85390305519104,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.49102097749710085,
+                    0.49102097749710085,
+                    0.49102097749710085,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "name": "Matte 2",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5394796133041382,
+                    0.5394796133041382,
+                    0.5394796133041382,
+                    1.0
+                ],
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.5
+            },
+            "name": "can_drink_ringPull_Mat",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "can_drink_ringPull",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "can_drink_body",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 6,
+                        "NORMAL": 5,
+                        "POSITION": 4
+                    },
+                    "indices": 7,
+                    "material": 1
+                },
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.3732319474220276,
+                0.29627498984336855,
+                0.346822053194046
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2
+            ],
+            "translation": [
+                -2.384185791015625e-7,
+                -0.0008373457239940763,
+                0.000001115798909268051
+            ],
+            "scale": [
+                0.2247907817363739,
+                0.2247907817363739,
+                0.2247907817363739
+            ],
+            "name": "scene_002"
+        },
+        {
+            "children": [
+                3,
+                4
+            ],
+            "name": "entity_1"
+        },
+        {
+            "mesh": 0,
+            "name": "can_drink_ringPull"
+        },
+        {
+            "mesh": 1,
+            "name": "can_drink_body"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
